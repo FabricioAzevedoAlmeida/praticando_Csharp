@@ -45,6 +45,92 @@
 // }
 
 //*Exercício 3 — Adivinhe o número
+//  int NumeroSecreto = 35;
 
- Console.Write("Digite o número secreto: ");
- int NumeroSecreto =  int.Parse(Console.ReadLine());
+//   Console.Write("Digite um numero: ");
+//   int tentativa =  int.Parse(Console.ReadLine());
+//   int TotalTentativa = 0;
+
+//  while (tentativa != NumeroSecreto)
+// {
+
+//     Console.Write("Digite outro número: ");
+//     tentativa = int.Parse(Console.ReadLine());
+//     TotalTentativa++;
+
+//     if(tentativa < NumeroSecreto)
+//     {
+//          Console.WriteLine("O numero secreto é maior");
+//     }
+//     else if(tentativa > NumeroSecreto)
+//     {
+//          Console.WriteLine("O numero secreto é menor");
+//     }
+
+// }
+//  Console.WriteLine("O numero secreto é maior");
+//  Console.WriteLine($"o seu total de tentativa foi: {TotalTentativa}");
+
+//*Exercício 4 — Calculadora com métodos
+
+// class Program
+// {
+//     static double Somar(double num1, double num2)
+//     {
+//         return num1 + num2;
+//     }
+
+//     static double Multiplicar(double num1, double num2)
+//     {
+//         return num1 * num2;
+//     }
+
+//     static void Main()
+//     {
+//         Console.Write("Digite o primeiro número: ");
+//         double n1 = Convert.ToDouble(Console.ReadLine());
+
+//         Console.Write("Digite o segundo número: ");
+//         double n2 = Convert.ToDouble(Console.ReadLine());
+
+//         double resultadoSoma = Somar(n1, n2);
+//         double resultadoMultiplicacao = Multiplicar(n1, n2);
+
+//         Console.WriteLine($"Resultado da Soma: {resultadoSoma}");
+//         Console.WriteLine($"Resultado da Multiplicação: {resultadoMultiplicacao}");
+//     }
+// }
+
+//*Exercício 5 — Cadastro de notas em um array
+
+// class Program
+// {
+//     static void Main()
+//     {
+
+//         double[] notas = new double[3];
+
+//         Console.WriteLine("--- Cadastro de Notas ---");
+//         for (int i = 0; i < notas.Length; i++)
+//         {
+//             Console.Write($"Digite a {i + 1}ª nota: ");
+//             notas[i] = Convert.ToDouble(Console.ReadLine());
+//         }
+
+//         Console.WriteLine("\n--- Exibindo as Notas ---");
+//         for (int i = 0; i < notas.Length; i++)
+//         {
+//             Console.WriteLine($"Nota {i + 1}: {notas[i]}");
+//         }
+
+//         double soma = 0;
+//         foreach (double nota in notas)
+//         {
+//             soma += nota;
+//         }
+//         double media = soma / notas.Length;
+
+//         Console.WriteLine("\n--- Resultado Final ---");
+//         Console.WriteLine($"Média das notas: {media:F2}");
+//     }
+// }
